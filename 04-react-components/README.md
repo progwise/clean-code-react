@@ -25,3 +25,6 @@ State is used to manage local component data that can change over time. State is
 ## Conclusion
 
 Summarize the tutorial and highlight the key concepts and best practices covered in the tutorial. Encourage readers to apply the knowledge gained to effectively use props and state in their own React component development.
+## rendering concept
+
+## declarative approach
