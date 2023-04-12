@@ -4,3 +4,6 @@
 
 ## state
 
+## rendering concept
+
+## declarative approach
