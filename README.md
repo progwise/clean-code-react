@@ -67,4 +67,4 @@ Summarize the tutorial and highlight the key concepts and skills covered. Provid
 
 ## Appendix
 
-Optionally, you could include additional sections or resources, such as troubleshooting tips, FAQs, or further reading materials related to the food recommendation website or the technologies used in the tutorial.
+Optionally, we could include additional sections or resources, such as troubleshooting tips, FAQs, or further reading materials related to the food recommendation website or the technologies used in the tutorial.
