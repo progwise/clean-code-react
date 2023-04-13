@@ -19,21 +19,50 @@ and how to do it in VS Code
 
 # Introduction to GitHub, VSCode, Node.js, and NPM
 
-## VSCode - Why? 
+## The advantages of VSCode in comparison with other IDEs (Integrated Development Environments.)(Why do we use VSCode?) 
 
 VSCode (Visual Studio Code) is a popular code editor that provides a rich set of features for software development. Here are some reasons why many developers prefer to use VSCode for their coding projects instead of other code editors like Atom, Sublime Text, or Notepad++:
 
-1. **Versatility:** VSCode supports a wide range of programming languages and frameworks, making it suitable for various types of projects, from web development to machine learning.
+1. **Versatility:** VSCode supports a wide range of programming languages and frameworks, making it suitable for various types of projects, from web development to machine learning and data science.
 
-2. **Intuitive User Interface:** VSCode has a clean and user-friendly interface with a responsive layout, making it easy to navigate, edit, and debug code.
+2. **Intuitive User Interface:** VSCode has a clean and user-friendly interface with a responsive layout, making it easy to navigate, edit, and debug code in a single window.
 
-3. **Integrated Version Control:** VSCode has built-in support for popular version control systems like Git, allowing developers to manage their code changes, commits, and branches directly from the editor.
+3. **Integrated Version Control:** VSCode has built-in support for popular version control systems like Git, allowing developers to manage their code changes, commits, and branches directly from the editor without having to switch between different applications.
 
-4. **Extensibility:** VSCode has a rich ecosystem of extensions that provide additional functionalities, such as syntax highlighting, code completion, and debugging tools, making it highly customizable to suit individual development needs.
+4. **Extensibility:** VSCode has a rich ecosystem of extensions that provide additional functionalities, such as syntax highlighting, code completion, and debugging tools, making it highly customizable to suit individual development needs and preferences.
 
-5. **Debugging Capabilities:** VSCode has robust debugging capabilities with built-in support for various programming languages, making it easy to identify and fix code issues.
+5. **Debugging Capabilities:** VSCode has robust debugging capabilities with built-in support for various programming languages, making it easy to identify and fix code issues and bugs.
 
-6. **Integrated Terminal:** VSCode has an integrated terminal that allows developers to run commands and scripts directly from the editor, reducing the need to switch between different applications.
+6. **Integrated Terminal:** VSCode has an integrated terminal that allows developers to run commands and scripts directly from the editor, reducing the need to switch between different applications and windows.
+
+### The basic git workflow and how to do it in VS Code as well as in the terminal: 
+
+1. Initialize a Git repository:
+- Terminal: Open a terminal window and navigate to the directory of your project. Run `git init` to initialize a new Git repository.
+- VS Code: Open your project in VS Code. In the VS Code integrated terminal, you can also run `git init` to initialize a new Git repository.
+
+2. Create a branch:
+- Terminal: Run `git checkout -b <branch_name>` to create a new branch and switch to it.
+- VS Code: Click on the Git icon in the Activity Bar on the side of the VS Code window to open the Source Control view. Click on the "Create a new branch" button (with a "+" icon) and enter a branch name to create a new branch.
+
+3. Make changes:
+- Terminal/VS Code: Make changes to your code using any editor of your choice. Git will automatically track the changes.
+
+4. Stage and commit changes:
+- Terminal: Run `git add <file>` or `git add .` to stage the changes. Then run `git commit -m "Your commit message here"` to commit the changes.
+- VS Code: In the Source Control view, you'll see a list of changes. Click on the "+" icon next to the changes you want to stage, enter a commit message in the "Message" field, and click on the checkmark icon to commit the changes.
+
+5. Pull and push changes:
+- Terminal: Run `git pull origin <branch_name>` to pull changes from the remote repository, and then run `git push origin <branch_name>` to push your changes to the remote repository.
+- VS Code: Click on the "Sync Changes" button (with arrows in a circular pattern) in the Source Control view to pull and push changes.
+
+6. Review and merge changes:
+- Terminal/VS Code: Once your changes are pushed to the remote repository, you can create a pull request or merge request for review, depending on the code hosting platform you're using. Your team members can review your changes and provide feedback.
+
+7. Repeat the process:
+- Terminal/VS Code: You can repeat the above steps for different features or bug fixes by creating new branches, making changes, staging, committing, pulling, pushing, and reviewing until your changes are merged into the main branch.
+
+
 
 ## Clean Coders Basic Git Workflow
 

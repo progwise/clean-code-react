@@ -6,6 +6,8 @@ This tutorial will cover essential JavaScript concepts that are important for Re
 
 ## Prerequisites
 
+Before starting this tutorial, it would be for you to have a basic understanding of computer programming and the fundamentals of JavaScript. However, if you are new to programming, no worries we will cover the basics of JavaScript in this tutorial.
+
 Before starting the tutorial, you should have a basic understanding of React and its core concepts, such as components, state, props, and lifecycle methods. Familiarity with modern JavaScript syntax (ES6+) is also recommended.
 
 ## Overview of Topics
